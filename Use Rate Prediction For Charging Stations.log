@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.7)  11 JAN 2019 14:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.7)  14 JAN 2019 16:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -398,49 +398,50 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-(e:/texlive/texmf-dist/tex/latex/multirow/multirow.sty
-Package: multirow 2019/01/01 v2.4 Span multiple rows of a table
-\multirow@colwidth=\skip49
-\multirow@cntb=\count111
-\multirow@dima=\skip50
-\bigstrutjot=\dimen137
+(e:/texlive/texmf-dist/tex/latex/changepage/changepage.sty
+Package: changepage 2009/10/20 v1.0c check page and change page layout
+\c@cp@cntr=\count111
+\cp@tempcnt=\count112
+)
+(e:/texlive/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
 )
 (./Use Rate Prediction For Charging Stations.aux)
 \openout1 = `"Use Rate Prediction For Charging Stations.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 13.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 14.
 
 (e:/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    ... okay on input line 14.
 
 -- Lines per column: 56 (exact).
 (e:/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count112
-\scratchdimen=\dimen138
+\scratchcounter=\count113
+\scratchdimen=\dimen137
 \scratchbox=\box31
-\nofMPsegments=\count113
-\nofMParguments=\count114
+\nofMPsegments=\count114
+\nofMParguments=\count115
 \everyMPshowfont=\toks21
-\MPscratchCnt=\count115
-\MPscratchDim=\dimen139
-\MPnumerator=\count116
-\makeMPintoPDFobject=\count117
+\MPscratchCnt=\count116
+\MPscratchDim=\dimen138
+\MPnumerator=\count117
+\makeMPintoPDFobject=\count118
 \everyMPtoPDFconversion=\toks22
 ) (e:/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -498,63 +499,176 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 54.
-LaTeX Font Info:    Try loading font information for U+msa on input line 54.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 55.
+LaTeX Font Info:    Try loading font information for U+msa on input line 55.
 
 (e:/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 54.
+LaTeX Font Info:    Try loading font information for U+msb on input line 55.
 
 (e:/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<weekday.pdf, id=1, 624.3325pt x 569.12625pt>
-File: weekday.pdf Graphic file (type pdf)
-<use weekday.pdf>
-Package pdftex.def Info: weekday.pdf  used on input line 90.
-(pdftex.def)             Requested size: 99.58464pt x 90.77548pt.
-<weekend.pdf, id=2, 552.0625pt x 527.9725pt>
-File: weekend.pdf Graphic file (type pdf)
-<use weekend.pdf>
-Package pdftex.def Info: weekend.pdf  used on input line 90.
-(pdftex.def)             Requested size: 99.58464pt x 95.23235pt.
-<morning.pdf, id=3, 627.34375pt x 538.01pt>
-File: morning.pdf Graphic file (type pdf)
-<use morning.pdf>
-Package pdftex.def Info: morning.pdf  used on input line 92.
-(pdftex.def)             Requested size: 99.58464pt x 85.40198pt.
-<evening.pdf, id=4, 563.10374pt x 519.9425pt>
-File: evening.pdf Graphic file (type pdf)
-<use evening.pdf>
-Package pdftex.def Info: evening.pdf  used on input line 93.
-(pdftex.def)             Requested size: 99.58464pt x 91.95126pt.
- [1{e:/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+<areas.pdf, id=1, 845.1575pt x 715.67375pt>
+File: areas.pdf Graphic file (type pdf)
+<use areas.pdf>
+Package pdftex.def Info: areas.pdf  used on input line 76.
+(pdftex.def)             Requested size: 256.0748pt x 216.84415pt.
 
-
-]
-Underfull \hbox (badness 1715) in paragraph at lines 120--121
-[]\OT1/ptm/m/n/8 press and pub-li-ca-tion, ra-dio and tele-vi-sion, art
- []
-
-<timeframes.pdf, id=14, 1180.41pt x 473.77pt>
-File: timeframes.pdf Graphic file (type pdf)
-<use timeframes.pdf>
-Package pdftex.def Info: timeframes.pdf  used on input line 150.
-(pdftex.def)             Requested size: 284.52756pt x 114.19147pt.
-
-Overfull \hbox (44.52756pt too wide) in paragraph at lines 149--153
+Overfull \hbox (16.0748pt too wide) in paragraph at lines 75--79
  [][] 
  []
 
-[2 <./weekday.pdf> <./weekend.pdf> <./morning.pdf> <./evening.pdf> <./timeframe
-s.pdf>]
-<path.pdf, id=30, 739.76375pt x 538.01pt>
+[1{e:/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+ <./areas.pdf>]
+! Missing number, treated as zero.
+<to be read again> 
+                   \hskip 
+l.93 	\qquad
+            • We propose a time frame based prediction framework to classi...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \hskip 
+l.93 	\qquad
+            • We propose a time frame based prediction framework to classi...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 93.
+(e:/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+! Missing number, treated as zero.
+<to be read again> 
+                   \hskip 
+l.97 	\qquad
+            • We make detailed analyses on both of the two datasets to obt...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \hskip 
+l.97 	\qquad
+            • We make detailed analyses on both of the two datasets to obt...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \hskip 
+l.101 	\qquad
+             • We make use of four learning models for improving the accur...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \hskip 
+l.101 	\qquad
+             • We make use of four learning models for improving the accur...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+[2]
+<weekday.pdf, id=16, 624.3325pt x 569.12625pt>
+File: weekday.pdf Graphic file (type pdf)
+<use weekday.pdf>
+Package pdftex.def Info: weekday.pdf  used on input line 125.
+(pdftex.def)             Requested size: 99.58464pt x 90.77548pt.
+<weekend.pdf, id=17, 552.0625pt x 527.9725pt>
+File: weekend.pdf Graphic file (type pdf)
+<use weekend.pdf>
+Package pdftex.def Info: weekend.pdf  used on input line 125.
+(pdftex.def)             Requested size: 99.58464pt x 95.23235pt.
+<morning.pdf, id=18, 627.34375pt x 538.01pt>
+File: morning.pdf Graphic file (type pdf)
+<use morning.pdf>
+Package pdftex.def Info: morning.pdf  used on input line 127.
+(pdftex.def)             Requested size: 99.58464pt x 85.40198pt.
+<evening.pdf, id=19, 563.10374pt x 519.9425pt>
+File: evening.pdf Graphic file (type pdf)
+<use evening.pdf>
+Package pdftex.def Info: evening.pdf  used on input line 128.
+(pdftex.def)             Requested size: 99.58464pt x 91.95126pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--152
+[]\OT1/ptm/m/n/10 shopping cen-ters, de-part-ment
+ []
+
+
+Underfull \hbox (badness 1629) in paragraph at lines 151--152
+\OT1/ptm/m/n/10 stores, home build-ing ma-te-ri-als,
+ []
+
+
+Underfull \hbox (badness 3000) in paragraph at lines 151--152
+\OT1/ptm/m/n/10 home ap-pli-ances dig-i-tal, shops,
+ []
+
+
+Underfull \hbox (badness 6559) in paragraph at lines 153--154
+[]\OT1/ptm/m/n/10 institutions of higher learn-ing,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--154
+\OT1/ptm/m/n/10 kinder-gartens, adult ed-u-ca-tion,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--154
+\OT1/ptm/m/n/10 parent-child ed-u-ca-tion, spe-cial
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--154
+\OT1/ptm/m/n/10 re-search in-sti-tu-tions, train-ing
+ []
+
+
+Underfull \hbox (badness 1831) in paragraph at lines 161--162
+\OT1/ptm/m/n/10 tion, sub-way line, long-distance
+ []
+
+[3 <./weekday.pdf> <./weekend.pdf> <./morning.pdf> <./evening.pdf>]
+<timeframes.pdf, id=33, 1180.41pt x 473.77pt>
+File: timeframes.pdf Graphic file (type pdf)
+<use timeframes.pdf>
+Package pdftex.def Info: timeframes.pdf  used on input line 185.
+(pdftex.def)             Requested size: 256.0748pt x 102.77666pt.
+
+Overfull \hbox (16.07481pt too wide) in paragraph at lines 184--188
+ [][] 
+ []
+
+<path.pdf, id=34, 739.76375pt x 538.01pt>
 File: path.pdf Graphic file (type pdf)
 <use path.pdf>
-Package pdftex.def Info: path.pdf  used on input line 170.
+Package pdftex.def Info: path.pdf  used on input line 205.
 (pdftex.def)             Requested size: 227.62204pt x 165.54176pt.
-
+[4 <./timeframes.pdf> <./path.pdf>]
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -566,25 +680,27 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[3 <./path.pdf>] (./Use Rate Prediction For Charging Stations.aux) ) 
+[5
+
+] (./Use Rate Prediction For Charging Stations.aux) ) 
 Here is how much of TeX's memory you used:
- 4507 strings out of 492616
- 64676 string characters out of 6135149
- 139529 words of memory out of 5000000
- 8343 multiletter control sequences out of 15000+600000
- 45086 words of font info for 99 fonts, out of 8000000 for 9000
+ 4546 strings out of 492616
+ 65388 string characters out of 6135149
+ 140024 words of memory out of 5000000
+ 8376 multiletter control sequences out of 15000+600000
+ 43212 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,13n,35p,883b,302s stack positions out of 5000i,500n,10000p,200000b,80000s
-{e:/texlive
-/texmf-dist/fonts/enc/dvips/base/8r.enc}<e:/texlive/texmf-dist/fonts/type1/urw/
-times/utmb8a.pfb><e:/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><e:/t
-exlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><e:/texlive/texmf-dist/fonts
-/type1/urw/times/utmri8a.pfb>
-Output written on "Use Rate Prediction For Charging Stations.pdf" (3 pages, 976
-403 bytes).
+ 41i,13n,35p,1481b,303s stack positions out of 5000i,500n,10000p,200000b,80000s
+{e:/texlive/texmf-dist/fon
+ts/enc/dvips/base/8r.enc}<e:/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pf
+b><e:/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><e:/texlive/texmf-di
+st/fonts/type1/urw/times/utmr8a.pfb><e:/texlive/texmf-dist/fonts/type1/urw/time
+s/utmri8a.pfb>
+Output written on "Use Rate Prediction For Charging Stations.pdf" (5 pages, 102
+6755 bytes).
 PDF statistics:
- 52 PDF objects out of 1000 (max. 8388607)
- 26 compressed objects within 1 object stream
+ 61 PDF objects out of 1000 (max. 8388607)
+ 31 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
