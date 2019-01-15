@@ -1,0 +1,67 @@
+\documentclass[conference]{IEEEtran}
+%\IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+%\usepackage{cite}
+%\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+%\usepackage{textcomp}
+\usepackage{xcolor}
+%\usepackage{changepage}
+%\usepackage{setspace}
+
+\begin{document}
+
+\title{Use Rate Prediction For Charging Stations\\}
+
+\author{\IEEEauthorblockN{Jiaxiang Huang, Junjie Yao}
+\IEEEauthorblockA{\textit{School of Computer Science and Software Engineering} \\
+\textit{East China Normal University}\\
+Shanghai, P.R.China \\
+xxxx@xxx, junjie.yao@sei.ecnu.edu.cn}
+\and
+\IEEEauthorblockN{3\textsuperscript{rd} Yingxia Shao}
+\IEEEauthorblockA{\textit{BUPT} \\
+\textit{BUPT}\\
+Beijing, Country \\
+yxshao@bupt.edu.cn}
+}
+
+\maketitle
+
+\begin{abstract}
+\input{abstract}
+\end{abstract}
+
+\begin{IEEEkeywords}
+charging station, use rate, POIs, price, AC/DC, private, public, time frames
+\end{IEEEkeywords}
+
+\section{Introduction}
+\input{intro}
+
+
+\section{Related Work}
+\input{related}
+
+\section{Design Overview}
+\input{preliminary}
+
+\section{Feature Description}
+\input{features}
+
+\section{Time Frame Based Model}
+\input{approach}
+
+\subsection{Results}
+\input{exp}
+
+\section{Conclusion and Future Work}
+In this paper, we propose the time frame based prediction model for use rate of charging stations. We study on some important features like station's surrouding POIs, charing price and station type. In experiments, we separate our dataset into different time frames and add the features into them, which obtains a relatively favourable result, indicating that the use rate of charing station is highly influenced by its geographical information and working elements. Furthermore, it also has a greate impact on location choosing problem.
+
+There is still a lot of work to be continued in the future. First, we only consider three main types of features that might affect station use rate, many other important features also need to be extracted and incluede. Furthermore, we might explore a properly modified model to execute those features and gain a more satisfactory result.
+
+
+\bibliographystyle{IEEEtran}
+\bibliography{reference}
+\end{document}
