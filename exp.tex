@@ -1,6 +1,14 @@
-We run our dataset on LR, Random Forest, SVM and XGBOOST respectively, along with the features mentioned above added into time frame based models.
+\subsection{Parameter Settings}
+We run our dataset on SVM, Random Forest and MLP respectively. For SVM, we make use of its 'SVC' module for classification task and choose 'linear' function for its kernel, the punishment parameter C is set to default as 1.0. For Random Forest, we set the number of decision-making trees 'n\_estimators' as 8. For MLP, we choose 'lbfgs' as solver and the activation function is 'relu', in order to avoid overfitting, we set the regular term alpha as 1e-4, the hidden\_layer\_sizes is set to (5,3) to achieve the best performance.
+
+\subsection{District Prediction}
+The task of district prediction aims to classify stations into high, middle or low use rate in urban and suburb areas of Shanghai.
+
+We first separate our dataset into two parts: urban areas data and suburb areas data. After this operation, about 30\% of station data is in the urban one, and other 70\% of data is in the suburb one. Then, for each part, we randomly choose 80\% of the data as training set, and 20\% left as test set. For SVC and MLP, there shoule be a feature normalization procedure, we conduct MinMaxScaler for SVC and StandarScaler for MLP to set constraints on feature value so that they can range in (0,1). For Random Forest, there's no need for normalization, so we keep the feature data as original when we implement our experiment on it. We use mean average precision(MAP) as evaluation method which is commonly used in multilabel classification task.
+
+Table.\ref{tab2} and Table.\ref{tab3} show the prediction accuracy of different models on urban areas data and suburb areas data. From the results we observe that: (1) SVC and Random Forest can perform stably on both two tasks. (2) MLP performs best in suburb prediciton while performs worst in urban prediction. The reason we infer is that because of the distribution of station data mentioned above, the urban part has lower data volume than the suburb part, this may influence the model performance due to MLP's neural network characteristic, while SVC and Random Forest are not sensitive to this difference.
 \begin{table}[htbp]
-	\caption{Evaluation results on different models}
+	\caption{Evaluation results on urban prediction}
 	\begin{center}
 		\begin{tabular}{|l|l|}
 			\hline
@@ -13,9 +21,182 @@ We run our dataset on LR, Random Forest, SVM and XGBOOST respectively, along wit
 			Random Forest & 70.1\%\\
 			\hline
 			XGBOOST & 73.6\%\\
+			SVC & 84.62\%\\
+			\hline
+			MLP & 74.35\%\\
+			\hline
+			Random Forest & 79.52\%\\
+			\hline
+			(Mean) & 79.50\%\\
 			\hline
 		\end{tabular}
 		\label{tab2}
 	\end{center}
 \end{table}
 Table.\ref{tab2} shows the prediction accuracy of different models. We can see that they can all perform well based on our settings, and XGBOOST achieves the most favourable result.
+
+\begin{table}[htbp]
+	\caption{Evaluation results on suburb prediction}
+	\begin{center}
+		\begin{tabular}{|l|l|}
+			\hline
+			Model & Accuracy\\
+			\hline
+			SVC & 79.52\%\\
+			\hline
+			MLP & 80.72\%\\
+			\hline
+			Random Forest & 78.31\%\\
+			\hline
+			(Mean) & 79.52\%\\
+			\hline
+		\end{tabular}
+		\label{tab3}
+	\end{center}
+\end{table}
+
+\subsection{Time Frames Prediction}
+Stations' use rate in different time frames is a more concerned problem we want to explore. According to time frames partition mentioned in Section 4, we also separate station data into 7 time frames: weekday, weekend, morining, morning\_rush\_hours, evening, evening\_rush\_hours and travel hours. In this task, features like POIs, charging port type and charging price still stay the same, while the use rate itself will vary in different time frames, so that the level of use rate, also the classification labels will differ from each time frame dataset. After preprocessing, we also randomly choose 80\% of valid data as training set, and the left as test set. We use the same models as used in districts prediction task, SVC, Random Forest and MLP(ANN), and then conduct our experiments.
+
+Table.\ref{tab4} and Table.\ref{tab5} show the accuracy of different models on weekday data and weekend data. We can see that in weekday time, all the three model just perform ordinarily, achieve an average accuracy of 74.71\%. However, in weekend time, all of them perform pretty well and achive a more than 90\% score. We assume that classification models can perform better in a shoter time span dataset. And we continue the further experiments.
+\begin{table}[htbp]
+	\caption{Evaluation results on weekday prediction}
+	\begin{center}
+		\begin{tabular}{|l|l|}
+			\hline
+			Model & Accuracy\\
+			\hline
+			SVC & 75\%\\
+			\hline
+			MLP & 76.72\%\\
+			\hline
+			Random Forest & 72.41\%\\
+			\hline
+			(Mean) & 74.71\%\\
+			\hline
+		\end{tabular}
+		\label{tab4}
+	\end{center}
+\end{table}
+
+\begin{table}[htbp]
+	\caption{Evaluation results on weekend prediction}
+	\begin{center}
+		\begin{tabular}{|l|l|}
+			\hline
+			Model & Accuracy\\
+			\hline
+			SVC & 96.55\%\\
+			\hline
+			MLP & 99.13\%\\
+			\hline
+			Random Forest & 98.27\%\\
+			\hline
+			(Mean) & 97.98\%\\
+			\hline
+		\end{tabular}
+		\label{tab5}
+	\end{center}
+\end{table}
+
+Then, we conduct experiments in morning, morning\_rush\_hours, evening, evening\_rush\_hours datasets respectively to verify our assumption. Table.\ref{tab6} and Table.\ref{tab7} show the results on the former two datasets. As the result shows, models perform much better in rush\_hours which has a shorter time span.
+\begin{table}[htbp]
+	\caption{Evaluation results on morning prediction}
+	\begin{center}
+		\begin{tabular}{|l|l|}
+			\hline
+			Model & Accuracy\\
+			\hline
+			SVC & 75\%\\
+			\hline
+			MLP & 77.59\%\\
+			\hline
+			Random Forest & 74.14\%\\
+			\hline
+			(Mean) & 75.58\%\\
+			\hline
+		\end{tabular}
+		\label{tab6}
+	\end{center}
+\end{table}
+
+\begin{table}[htbp]
+	\caption{Evaluation results on morining\_rush\_hours prediction}
+	\begin{center}
+		\begin{tabular}{|l|l|}
+			\hline
+			Model & Accuracy\\
+			\hline
+			SVC & 95.69\%\\
+			\hline
+			MLP & 95.69\%\\
+			\hline
+			Random Forest & 96.55\%\\
+			\hline
+			(Mean) & 95.98\%\\
+			\hline
+		\end{tabular}
+		\label{tab7}
+	\end{center}
+\end{table}
+The results on evening and evening\_rush\_hours datasets are according with our observation, as Table.\ref{tab8} and Table.\ref{tab9} show. It can also be seen that because evening hours are a little shorter than morning hours, the classification accuracy is some higher in evening time. When comparing morning and evening rush\_hours, it's common sense that the two time frames cover almost the same time span, so the results differ scarcely.
+\begin{table}[!htbp]
+	\caption{Evaluation results on evening prediction}
+	\begin{center}
+		\begin{tabular}{|l|l|}
+			\hline
+			Model & Accuracy\\
+			\hline
+			SVC & 82.76\%\\
+			\hline
+			MLP & 81.90\%\\
+			\hline
+			Random Forest & 83.62\%\\
+			\hline
+			(Mean) & 82.76\%\\
+			\hline
+		\end{tabular}
+		\label{tab8}
+	\end{center}
+\end{table}
+
+\begin{table}[!htbp]
+	\caption{Evaluation results on evening\_rush\_hours prediction}
+	\begin{center}
+		\begin{tabular}{|l|l|}
+			\hline
+			Model & Accuracy\\
+			\hline
+			SVC & 98.28\%\\
+			\hline
+			MLP & 96.55\%\\
+			\hline
+			Random Forest & 97.41\%\\
+			\hline
+			(Mean) & 97.41\%\\
+			\hline
+		\end{tabular}
+		\label{tab9}
+	\end{center}
+\end{table}
+Finally, we conduct experiments on travel\_hours dataset. The time span mainly falls in the National Day holidays. Table.\ref{tab10} shows the classification results. It also verifies our observation, since its time span is as long as one week in 'weekday' time.
+
+\begin{table}[!htbp]
+	\caption{Evaluation results on travel\_hours prediction}
+	\begin{center}
+		\begin{tabular}{|l|l|}
+			\hline
+			Model & Accuracy\\
+			\hline
+			SVC & 75.86\%\\
+			\hline
+			MLP & 79.31\%\\
+			\hline
+			Random Forest & 76.72\%\\
+			\hline
+			(Mean) & 77.30\%\\
+			\hline
+		\end{tabular}
+		\label{tab10}
+	\end{center}
+\end{table}
