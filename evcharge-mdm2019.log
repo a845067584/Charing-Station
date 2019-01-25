@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.7)  25 JAN 2019 00:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.7)  25 JAN 2019 16:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -112,7 +112,14 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 \IEEEPARstartletwidth=\dimen125
 \c@IEEEbiography=\count94
 \@IEEEtranrubishbin=\box28
-) (e:/texlive/texmf-dist/tex/latex/algorithms/algorithmic.sty
+) (e:/texlive/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip44
+\bibsep=\skip45
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count95
+)
+(e:/texlive/texmf-dist/tex/latex/algorithms/algorithmic.sty
 Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
 
 (e:/texlive/texmf-dist/tex/latex/base/ifthen.sty
@@ -122,12 +129,12 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks15
 )
-\c@ALC@unique=\count95
-\c@ALC@line=\count96
-\c@ALC@rem=\count97
-\c@ALC@depth=\count98
-\ALC@tlm=\skip44
-\algorithmicindent=\skip45
+\c@ALC@unique=\count96
+\c@ALC@line=\count97
+\c@ALC@rem=\count98
+\c@ALC@depth=\count99
+\ALC@tlm=\skip46
+\algorithmicindent=\skip47
 )
 (e:/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
@@ -166,11 +173,7 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-(./evcharge-mdm2019.aux
-
-LaTeX Warning: Label `fig2' multiply defined.
-
-)
+(./evcharge-mdm2019.aux)
 \openout1 = `evcharge-mdm2019.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
@@ -189,16 +192,16 @@ LaTeX Font Info:    ... okay on input line 13.
 -- Lines per column: 56 (exact).
 (e:/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count99
+\scratchcounter=\count100
 \scratchdimen=\dimen128
 \scratchbox=\box29
-\nofMPsegments=\count100
-\nofMParguments=\count101
+\nofMPsegments=\count101
+\nofMParguments=\count102
 \everyMPshowfont=\toks16
-\MPscratchCnt=\count102
+\MPscratchCnt=\count103
 \MPscratchDim=\dimen129
-\MPnumerator=\count103
-\makeMPintoPDFobject=\count104
+\MPnumerator=\count104
+\makeMPintoPDFobject=\count105
 \everyMPtoPDFconversion=\toks17
 ) (e:/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -264,51 +267,50 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5.5> on input line 30.
  (./abstract.tex) (./intro.tex
-<./figures/areas.pdf, id=1, 845.1575pt x 715.67375pt>
-File: ./figures/areas.pdf Graphic file (type pdf)
-<use ./figures/areas.pdf>
-Package pdftex.def Info: ./figures/areas.pdf  used on input line 10.
-(pdftex.def)             Requested size: 252.0pt x 213.39334pt.
+<./figures/rate.pdf, id=1, 569.0058pt x 542.025pt>
+File: ./figures/rate.pdf Graphic file (type pdf)
+<use ./figures/rate.pdf>
+Package pdftex.def Info: ./figures/rate.pdf  used on input line 10.
+(pdftex.def)             Requested size: 252.0pt x 240.0466pt.
  [1{e:/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
- <./figures/areas.pdf>]
+ <./figures/rate.pdf>]
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 24.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 24.
-) (./related.tex) (./preliminary.tex
-<./figures/pipeline.pdf, id=13, 963.6pt x 341.35529pt>
+) (./related.tex
+<./figures/pipeline.pdf, id=14, 963.6pt x 341.35529pt>
 File: ./figures/pipeline.pdf Graphic file (type pdf)
 <use ./figures/pipeline.pdf>
-Package pdftex.def Info: ./figures/pipeline.pdf  used on input line 10.
+Package pdftex.def Info: ./figures/pipeline.pdf  used on input line 2.
 (pdftex.def)             Requested size: 504.0pt x 178.54228pt.
-) (./features.tex
-[2]
-<./figures/weekday.pdf, id=18, 624.3325pt x 569.12625pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+) [2]
+(./preliminary.tex) (./features.tex
+<./figures/weekday.pdf, id=19, 624.3325pt x 569.12625pt>
 File: ./figures/weekday.pdf Graphic file (type pdf)
 <use ./figures/weekday.pdf>
 Package pdftex.def Info: ./figures/weekday.pdf  used on input line 10.
 (pdftex.def)             Requested size: 113.39923pt x 103.36751pt.
-<./figures/weekend.pdf, id=19, 552.0625pt x 527.9725pt>
+<./figures/weekend.pdf, id=20, 552.0625pt x 527.9725pt>
 File: ./figures/weekend.pdf Graphic file (type pdf)
 <use ./figures/weekend.pdf>
 Package pdftex.def Info: ./figures/weekend.pdf  used on input line 10.
 (pdftex.def)             Requested size: 113.39923pt x 108.44452pt.
-<./figures/morning.pdf, id=20, 627.34375pt x 538.01pt>
+<./figures/morning.pdf, id=21, 627.34375pt x 538.01pt>
 File: ./figures/morning.pdf Graphic file (type pdf)
 <use ./figures/morning.pdf>
 Package pdftex.def Info: ./figures/morning.pdf  used on input line 12.
 (pdftex.def)             Requested size: 113.39923pt x 97.24808pt.
-<./figures/evening.pdf, id=21, 563.10374pt x 519.9425pt>
+<./figures/evening.pdf, id=22, 563.10374pt x 519.9425pt>
 File: ./figures/evening.pdf Graphic file (type pdf)
 <use ./figures/evening.pdf>
 Package pdftex.def Info: ./figures/evening.pdf  used on input line 13.
 (pdftex.def)             Requested size: 113.39923pt x 104.70068pt.
-
-
-LaTeX Warning: Reference `fig3' on page 3 undefined on input line 20.
-
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 29.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -323,87 +325,84 @@ Underfull \hbox (badness 2990) in paragraph at lines 39--40
 \OT1/ptm/m/n/8 schools, pri-mary schools, kinder-gartens,
  []
 
-<./figures/company.pdf, id=22, 567.11874pt x 367.3725pt>
+[3 <./figures/pipeline.pdf>]
+<./figures/company.pdf, id=32, 567.11874pt x 367.3725pt>
 File: ./figures/company.pdf Graphic file (type pdf)
 <use ./figures/company.pdf>
 Package pdftex.def Info: ./figures/company.pdf  used on input line 62.
 (pdftex.def)             Requested size: 113.39923pt x 73.45638pt.
-<./figures/estate.pdf, id=23, 578.16pt x 377.41pt>
+<./figures/estate.pdf, id=33, 578.16pt x 377.41pt>
 File: ./figures/estate.pdf Graphic file (type pdf)
 <use ./figures/estate.pdf>
 Package pdftex.def Info: ./figures/estate.pdf  used on input line 62.
 (pdftex.def)             Requested size: 113.39923pt x 74.02368pt.
-<./figures/hospital.pdf, id=24, 559.08875pt x 364.36125pt>
+<./figures/hospital.pdf, id=34, 559.08875pt x 364.36125pt>
 File: ./figures/hospital.pdf Graphic file (type pdf)
 <use ./figures/hospital.pdf>
 Package pdftex.def Info: ./figures/hospital.pdf  used on input line 64.
 (pdftex.def)             Requested size: 113.39923pt x 73.89949pt.
-<./figures/metro.pdf, id=25, 541.02126pt x 374.39874pt>
+<./figures/metro.pdf, id=35, 541.02126pt x 374.39874pt>
 File: ./figures/metro.pdf Graphic file (type pdf)
 <use ./figures/metro.pdf>
 Package pdftex.def Info: ./figures/metro.pdf  used on input line 65.
 (pdftex.def)             Requested size: 113.39923pt x 78.4718pt.
-<./figures/shop.pdf, id=26, 534.99875pt x 360.34625pt>
+<./figures/shop.pdf, id=36, 534.99875pt x 360.34625pt>
 File: ./figures/shop.pdf Graphic file (type pdf)
 <use ./figures/shop.pdf>
 Package pdftex.def Info: ./figures/shop.pdf  used on input line 67.
 (pdftex.def)             Requested size: 113.39923pt x 76.37874pt.
-<./figures/university.pdf, id=27, 539.01375pt x 356.33125pt>
+<./figures/university.pdf, id=37, 539.01375pt x 356.33125pt>
 File: ./figures/university.pdf Graphic file (type pdf)
 <use ./figures/university.pdf>
 Package pdftex.def Info: ./figures/university.pdf  used on input line 69.
 (pdftex.def)             Requested size: 113.39923pt x 74.96225pt.
-
-Underfull \vbox (badness 1776) has occurred while \output is active []
-
- [3 <./figures/pipeline.pdf> <./figures/weekday.pdf> <./figures/weekend.pdf> <.
-/figures/morning.pdf> <./figures/evening.pdf>]
-<./figures/ac_cnt.pdf, id=47, 647.41875pt x 408.52625pt>
+<./figures/ac_cnt.pdf, id=38, 647.41875pt x 408.52625pt>
 File: ./figures/ac_cnt.pdf Graphic file (type pdf)
 <use ./figures/ac_cnt.pdf>
 Package pdftex.def Info: ./figures/ac_cnt.pdf  used on input line 82.
 (pdftex.def)             Requested size: 113.39923pt x 71.5555pt.
-<./figures/ac_fee.pdf, id=48, 636.3775pt x 417.56pt>
+<./figures/ac_fee.pdf, id=39, 636.3775pt x 417.56pt>
 File: ./figures/ac_fee.pdf Graphic file (type pdf)
 <use ./figures/ac_fee.pdf>
 Package pdftex.def Info: ./figures/ac_fee.pdf  used on input line 82.
 (pdftex.def)             Requested size: 113.39923pt x 74.40572pt.
-<./figures/dc_cnt.pdf, id=49, 646.415pt x 424.58624pt>
+<./figures/dc_cnt.pdf, id=40, 646.415pt x 424.58624pt>
 File: ./figures/dc_cnt.pdf Graphic file (type pdf)
 <use ./figures/dc_cnt.pdf>
 Package pdftex.def Info: ./figures/dc_cnt.pdf  used on input line 84.
 (pdftex.def)             Requested size: 113.39923pt x 74.47862pt.
-<./figures/dc_fee.pdf, id=50, 624.3325pt x 424.58624pt>
+<./figures/dc_fee.pdf, id=41, 624.3325pt x 424.58624pt>
 File: ./figures/dc_fee.pdf Graphic file (type pdf)
 <use ./figures/dc_fee.pdf>
 Package pdftex.def Info: ./figures/dc_fee.pdf  used on input line 85.
 (pdftex.def)             Requested size: 113.39923pt x 77.11543pt.
-<./figures/distribution.pdf, id=51, 903.375pt x 401.5pt>
+<./figures/distribution.pdf, id=42, 903.375pt x 401.5pt>
 File: ./figures/distribution.pdf Graphic file (type pdf)
 <use ./figures/distribution.pdf>
 Package pdftex.def Info: ./figures/distribution.pdf  used on input line 101.
 (pdftex.def)             Requested size: 252.0pt x 111.9965pt.
-<./figures/timeframes.pdf, id=52, 1180.41pt x 473.77pt>
+ [4 <./figures/weekday.pdf> <./figures/weekend.pdf> <./figures/morning.pdf> <./
+figures/evening.pdf> <./figures/company.pdf> <./figures/estate.pdf> <./figures/
+hospital.pdf> <./figures/metro.pdf> <./figures/shop.pdf> <./figures/university.
+pdf>]
+<./figures/timeframes.pdf, id=74, 1180.41pt x 473.77pt>
 File: ./figures/timeframes.pdf Graphic file (type pdf)
 <use ./figures/timeframes.pdf>
 Package pdftex.def Info: ./figures/timeframes.pdf  used on input line 109.
 (pdftex.def)             Requested size: 252.0pt x 101.14287pt.
- [4 <./figures/company.pdf> <./figures/estate.pdf> <./figures/hospital.pdf> <./
-figures/metro.pdf> <./figures/shop.pdf> <./figures/university.pdf> <./figures/a
-c_cnt.pdf> <./figures/ac_fee.pdf> <./figures/dc_cnt.pdf> <./figures/dc_fee.pdf>
- <./figures/distribution.pdf>]
-<./figures/uni.pdf, id=89, 435.6275pt x 215.80624pt>
+<./figures/uni.pdf, id=75, 435.6275pt x 215.80624pt>
 File: ./figures/uni.pdf Graphic file (type pdf)
 <use ./figures/uni.pdf>
 Package pdftex.def Info: ./figures/uni.pdf  used on input line 122.
 (pdftex.def)             Requested size: 252.0pt x 124.83841pt.
-) (./exp.tex
-[5 <./figures/timeframes.pdf> <./figures/uni.pdf>]
-Underfull \hbox (badness 7099) in paragraph at lines 102--122
+) (./exp.tex [5 <./figures/ac_cnt.pdf> <./figures/ac_fee.pdf> <./figures/dc_cnt
+.pdf> <./figures/dc_fee.pdf> <./figures/distribution.pdf> <./figures/timeframes
+.pdf> <./figures/uni.pdf>]
+Underfull \hbox (badness 7099) in paragraph at lines 95--115
 []\OT1/ptm/m/n/10 Then, we con-duct ex-per-i-ments in morn-ing, morn-
  []
 
-[6]) (./evcharge-mdm2019.bbl)
+[6]) (./evcharge-mdm2019.bbl [7])
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -415,33 +414,26 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[7
+[8
 
-] (./evcharge-mdm2019.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+] (./evcharge-mdm2019.aux) ) 
 Here is how much of TeX's memory you used:
- 3045 strings out of 492616
- 47569 string characters out of 6135149
- 129866 words of memory out of 5000000
- 6902 multiletter control sequences out of 15000+600000
- 41298 words of font info for 77 fonts, out of 8000000 for 9000
+ 3417 strings out of 492616
+ 52328 string characters out of 6135149
+ 135680 words of memory out of 5000000
+ 7272 multiletter control sequences out of 15000+600000
+ 39055 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,13n,35p,1783b,298s stack positions out of 5000i,500n,10000p,200000b,80000s
-{e:/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}<e:/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmsy7.pfb><e:/texlive/texmf-dist/fonts/type1/urw/ti
-mes/utmb8a.pfb><e:/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><e:/tex
-live/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><e:/texlive/texmf-dist/fonts/t
-ype1/urw/times/utmri8a.pfb>
-Output written on evcharge-mdm2019.pdf (7 pages, 1596596 bytes).
+ 41i,13n,35p,1928b,300s stack positions out of 5000i,500n,10000p,200000b,80000s
+{e:/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}
+<e:/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><e:/texlive/tex
+mf-dist/fonts/type1/urw/times/utmb8a.pfb><e:/texlive/texmf-dist/fonts/type1/urw
+/times/utmbi8a.pfb><e:/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><e:/
+texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on evcharge-mdm2019.pdf (8 pages, 1599136 bytes).
 PDF statistics:
- 124 PDF objects out of 1000 (max. 8388607)
- 56 compressed objects within 1 object stream
+ 128 PDF objects out of 1000 (max. 8388607)
+ 59 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  96 words of extra memory for PDF output out of 10000 (max. 10000000)
 

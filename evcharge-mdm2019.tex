@@ -1,7 +1,7 @@
 \documentclass[conference]{IEEEtran}
 %\IEEEoverridecommandlockouts
 % The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
-%\usepackage{cite}
+\usepackage[numbers,sort&compress]{natbib}
 %\usepackage{amsmath,amssymb,amsfonts}
 \usepackage{algorithmic}
 \usepackage{graphicx}
@@ -53,9 +53,9 @@ charging station, use rate, POIs, price, AC/DC, private, public, time frames
 \input{exp}
 
 \section{Conclusion and Future Work}
-In this paper, we propose the time frame based prediction model for use rate of charging stations. We study on some important features like station's surrouding POIs, charing price and station type. In experiments, we separate our dataset into different time frames and add the features into them, which obtains a relatively favourable result, indicating that the use rate of charing station is highly influenced by its geographical information and working elements. Furthermore, it also has a greate impact on location choosing problem.
+In this paper, we propose the spatio temporal based framework for use rate prediction of charging stations. We study on some important features including station's surrouding POIs, charing price, charging port types and using limits. We assume that use rate values will vary in different area districts and different time frames, so we separate our dataset into urban or suburb area and different time frames to make further analyses. In experiments, we make use of three classification models to conduct three tasks, including districts use\_rate prediction, time frames use\_rate prediction and use rate classification. With features added into the models, they can obtain relatively favourable results, indicating that the use rate of charging station is highly influenced by its geographical information and working elements. Furthermore, it also has a greate impact on location choosing problem. In addition, on task two, we also find that there exists a relationship between prediction accuracy and time span: shorter time span can lead to more accurate results. 
 
-There is still a lot of work to be continued in the future. First, we only consider three main types of features that might affect station use rate, many other important features also need to be extracted and incluede. Furthermore, we might explore a properly modified model to execute those features and gain a more satisfactory result.
+There is still a lot of work to be continued in the future. First, we only consider four main types of features that might affect stations' use rate, many other important features also need to be extracted and included. Second, we don't make fully use of rich spatio temporal informaton behind our dataset, we will dig into it deeper in our future work. Finally, we might explore a properly modified model to execute those features and gain a more satisfactory result.
 
 
 \bibliographystyle{IEEEtran}

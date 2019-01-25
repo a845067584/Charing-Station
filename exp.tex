@@ -1,7 +1,7 @@
 \subsection{Parameter Settings}
 We run our dataset on SVM, Random Forest and MLP respectively. For SVM, we make use of its 'SVC' module for classification task and choose 'linear' function for its kernel, the punishment parameter C is set to default as 1.0. For Random Forest, we set the number of decision-making trees 'n\_estimators' as 8. For MLP, we choose 'lbfgs' as solver and the activation function is 'relu', in order to avoid overfitting, we set the regular term alpha as 1e-4, the hidden\_layer\_sizes is set to (5,3) to achieve the best performance.
 
-\subsection{District Prediction}
+\subsection{District Use\_Rate Prediction}
 The task of district prediction aims to classify stations into high, middle or low use rate in urban and suburb areas of Shanghai.
 
 We first separate our dataset into two parts: urban areas data and suburb areas data. After this operation, about 30\% of station data is in the urban one, and other 70\% of data is in the suburb one. Then, for each part, we randomly choose 80\% of the data as training set, and 20\% left as test set. For SVC and MLP, there shoule be a feature normalization procedure, we conduct MinMaxScaler for SVC and StandarScaler for MLP to set constraints on feature value so that they can range in (0,1). For Random Forest, there's no need for normalization, so we keep the feature data as original when we implement our experiment on it. We use mean average precision(MAP) as evaluation method which is commonly used in multilabel classification task.
@@ -14,13 +14,6 @@ Table.\ref{tab2} and Table.\ref{tab3} show the prediction accuracy of different 
 			\hline
 			Model & Accuracy\\
 			\hline
-			LR & 60.9\%\\
-			\hline
-			SVM & 68.9\%\\
-			\hline
-			Random Forest & 70.1\%\\
-			\hline
-			XGBOOST & 73.6\%\\
 			SVC & 84.62\%\\
 			\hline
 			MLP & 74.35\%\\
@@ -55,7 +48,7 @@ Table.\ref{tab2} shows the prediction accuracy of different models. We can see t
 	\end{center}
 \end{table}
 
-\subsection{Time Frames Prediction}
+\subsection{Time Frames Use\_Rate Prediction}
 Stations' use rate in different time frames is a more concerned problem we want to explore. According to time frames partition mentioned in Section 4, we also separate station data into 7 time frames: weekday, weekend, morining, morning\_rush\_hours, evening, evening\_rush\_hours and travel hours. In this task, features like POIs, charging port type and charging price still stay the same, while the use rate itself will vary in different time frames, so that the level of use rate, also the classification labels will differ from each time frame dataset. After preprocessing, we also randomly choose 80\% of valid data as training set, and the left as test set. We use the same models as used in districts prediction task, SVC, Random Forest and MLP(ANN), and then conduct our experiments.
 
 Table.\ref{tab4} and Table.\ref{tab5} show the accuracy of different models on weekday data and weekend data. We can see that in weekday time, all the three model just perform ordinarily, achieve an average accuracy of 74.71\%. However, in weekend time, all of them perform pretty well and achive a more than 90\% score. We assume that classification models can perform better in a shoter time span dataset. And we continue the further experiments.
@@ -198,5 +191,28 @@ Finally, we conduct experiments on travel\_hours dataset. The time span mainly f
 			\hline
 		\end{tabular}
 		\label{tab10}
+	\end{center}
+\end{table}
+
+\subsection{Use Rate Classification}
+In addition to predict the level of a station's use rate, we also aim to explore that when given featrues and use rate values, whether the models can tell which area it belongs to, urban area or suburb area. We continue our experiments on the dataset which is the union of urban area data and suburb area data. In this task, we set location of stations, 'urban' or 'suburb' as labels, and the problem turns into a binary classification task. We still use models SVC, Random Forest and MLP(ANN) to conduct our experiments. Table.\ref{tab11} shows the classification results of use rate for locations of stations. From the results we observe that all the three models can perform well on this task, and reach an average accuracy of 87.64\%, which further demonstrates that stations' geographical information as well as their working elements have great impact on location selection for charging stations.
+
+\begin{table}[!htbp]
+	\caption{Evaluation results on use rate classification for location of stations}
+	\begin{center}
+		\begin{tabular}{|l|l|}
+			\hline
+			Model & Accuracy\\
+			\hline
+			SVC & 86.21\%\\
+			\hline
+			MLP & 87.93\%\\
+			\hline
+			Random Forest & 88.79\%\\
+			\hline
+			(Mean) & 87.64\%\\
+			\hline
+		\end{tabular}
+		\label{tab11}
 	\end{center}
 \end{table}
