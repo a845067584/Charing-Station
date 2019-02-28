@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.7)  28 FEB 2019 15:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.7)  1 MAR 2019 00:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -237,137 +237,145 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 24.
+(Font)              <7> on input line 26.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 24.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 29.
+(Font)              <5> on input line 26.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 31.
 
 (e:/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 29.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 31.
  [1
 
 {e:/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 <./figures/rate.pdf, id=11, 1044.90375pt x 847.165pt>
 File: ./figures/rate.pdf Graphic file (type pdf)
 <use ./figures/rate.pdf>
-Package pdftex.def Info: ./figures/rate.pdf  used on input line 43.
+Package pdftex.def Info: ./figures/rate.pdf  used on input line 45.
 (pdftex.def)             Requested size: 347.12354pt x 281.43968pt.
  [2 <./figures/rate.pdf>] [3]
 <./figures/pipeline.pdf, id=22, 963.6pt x 341.35529pt>
 File: ./figures/pipeline.pdf Graphic file (type pdf)
 <use ./figures/pipeline.pdf>
-Package pdftex.def Info: ./figures/pipeline.pdf  used on input line 73.
+Package pdftex.def Info: ./figures/pipeline.pdf  used on input line 75.
 (pdftex.def)             Requested size: 347.12354pt x 122.96593pt.
  [4 <./figures/pipeline.pdf>] [5]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 99.
+(Font)              <9> on input line 101.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 99.
-<./figures/company.pdf, id=36, 567.11874pt x 367.3725pt>
+(Font)              <6> on input line 101.
+
+Underfull \hbox (badness 2334) in paragraph at lines 115--116
+[]\OT1/cmr/m/n/9 general hos-pi-tals, spe-cial-ist hos-pi-tals, clin-ics,
+ []
+
+
+Underfull \hbox (badness 2326) in paragraph at lines 115--116
+\OT1/cmr/m/n/9 phar-ma-cies, med-i-cal ex-am-i-na-tion in-sti-tu-tions,
+ []
+
+[6]
+<./figures/company.pdf, id=39, 567.11874pt x 367.3725pt>
 File: ./figures/company.pdf Graphic file (type pdf)
 <use ./figures/company.pdf>
-Package pdftex.def Info: ./figures/company.pdf  used on input line 132.
+Package pdftex.def Info: ./figures/company.pdf  used on input line 134.
 (pdftex.def)             Requested size: 156.20453pt x 101.1875pt.
-<./figures/estate.pdf, id=37, 578.16pt x 377.41pt>
+<./figures/estate.pdf, id=40, 578.16pt x 377.41pt>
 File: ./figures/estate.pdf Graphic file (type pdf)
 <use ./figures/estate.pdf>
-Package pdftex.def Info: ./figures/estate.pdf  used on input line 132.
+Package pdftex.def Info: ./figures/estate.pdf  used on input line 134.
 (pdftex.def)             Requested size: 156.20453pt x 101.96541pt.
-<./figures/hospital.pdf, id=38, 559.08875pt x 364.36125pt>
+<./figures/hospital.pdf, id=41, 559.08875pt x 364.36125pt>
 File: ./figures/hospital.pdf Graphic file (type pdf)
 <use ./figures/hospital.pdf>
-Package pdftex.def Info: ./figures/hospital.pdf  used on input line 134.
+Package pdftex.def Info: ./figures/hospital.pdf  used on input line 136.
 (pdftex.def)             Requested size: 156.20453pt x 101.79807pt.
-<./figures/metro.pdf, id=39, 541.02126pt x 374.39874pt>
+<./figures/metro.pdf, id=42, 541.02126pt x 374.39874pt>
 File: ./figures/metro.pdf Graphic file (type pdf)
 <use ./figures/metro.pdf>
-Package pdftex.def Info: ./figures/metro.pdf  used on input line 135.
+Package pdftex.def Info: ./figures/metro.pdf  used on input line 137.
 (pdftex.def)             Requested size: 156.20453pt x 108.09297pt.
-<./figures/shop.pdf, id=40, 534.99875pt x 360.34625pt>
+<./figures/shop.pdf, id=43, 534.99875pt x 360.34625pt>
 File: ./figures/shop.pdf Graphic file (type pdf)
 <use ./figures/shop.pdf>
-Package pdftex.def Info: ./figures/shop.pdf  used on input line 137.
+Package pdftex.def Info: ./figures/shop.pdf  used on input line 139.
 (pdftex.def)             Requested size: 156.20453pt x 105.21252pt.
-<./figures/university.pdf, id=41, 539.01375pt x 356.33125pt>
+<./figures/university.pdf, id=44, 539.01375pt x 356.33125pt>
 File: ./figures/university.pdf Graphic file (type pdf)
 <use ./figures/university.pdf>
-Package pdftex.def Info: ./figures/university.pdf  used on input line 139.
+Package pdftex.def Info: ./figures/university.pdf  used on input line 141.
 (pdftex.def)             Requested size: 156.20453pt x 103.26273pt.
- [6] [7 <./figures/company.pdf> <./figures/estate.pdf> <./figures/hospital.pdf>
- <./figures/metro.pdf> <./figures/shop.pdf> <./figures/university.pdf>]
+ [7 <./figures/company.pdf> <./figures/estate.pdf> <./figures/hospital.pdf> <./
+figures/metro.pdf> <./figures/shop.pdf> <./figures/university.pdf>]
 <./figures/ac_cnt.pdf, id=67, 647.41875pt x 408.52625pt>
 File: ./figures/ac_cnt.pdf Graphic file (type pdf)
 <use ./figures/ac_cnt.pdf>
-Package pdftex.def Info: ./figures/ac_cnt.pdf  used on input line 152.
+Package pdftex.def Info: ./figures/ac_cnt.pdf  used on input line 154.
 (pdftex.def)             Requested size: 156.20453pt x 98.56569pt.
 <./figures/ac_fee.pdf, id=68, 636.3775pt x 417.56pt>
 File: ./figures/ac_fee.pdf Graphic file (type pdf)
 <use ./figures/ac_fee.pdf>
-Package pdftex.def Info: ./figures/ac_fee.pdf  used on input line 152.
+Package pdftex.def Info: ./figures/ac_fee.pdf  used on input line 154.
 (pdftex.def)             Requested size: 156.20453pt x 102.49104pt.
 <./figures/dc_cnt.pdf, id=69, 646.415pt x 424.58624pt>
 File: ./figures/dc_cnt.pdf Graphic file (type pdf)
 <use ./figures/dc_cnt.pdf>
-Package pdftex.def Info: ./figures/dc_cnt.pdf  used on input line 154.
+Package pdftex.def Info: ./figures/dc_cnt.pdf  used on input line 156.
 (pdftex.def)             Requested size: 156.20453pt x 102.596pt.
 <./figures/dc_fee.pdf, id=70, 624.3325pt x 424.58624pt>
 File: ./figures/dc_fee.pdf Graphic file (type pdf)
 <use ./figures/dc_fee.pdf>
-Package pdftex.def Info: ./figures/dc_fee.pdf  used on input line 155.
+Package pdftex.def Info: ./figures/dc_fee.pdf  used on input line 157.
 (pdftex.def)             Requested size: 156.20453pt x 106.22404pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [8 <./figures/ac_cnt.pdf> <./figures/ac_fee.pdf> <./figures/dc_cnt.pdf> <./fig
 ures/dc_fee.pdf>]
 <./figures/uni.pdf, id=86, 435.6275pt x 215.80624pt>
 File: ./figures/uni.pdf Graphic file (type pdf)
 <use ./figures/uni.pdf>
-Package pdftex.def Info: ./figures/uni.pdf  used on input line 180.
+Package pdftex.def Info: ./figures/uni.pdf  used on input line 182.
 (pdftex.def)             Requested size: 347.12354pt x 171.96028pt.
- [9]
-<./figures/urban_rank.pdf, id=90, 642.4pt x 481.8pt>
+ [9 <./figures/uni.pdf>]
+<./figures/urban_rank.pdf, id=93, 642.4pt x 481.8pt>
 File: ./figures/urban_rank.pdf Graphic file (type pdf)
 <use ./figures/urban_rank.pdf>
-Package pdftex.def Info: ./figures/urban_rank.pdf  used on input line 233.
+Package pdftex.def Info: ./figures/urban_rank.pdf  used on input line 235.
 (pdftex.def)             Requested size: 242.98541pt x 182.24045pt.
- [10 <./figures/uni.pdf>]
+ [10]
 <./figures/subur_rank.pdf, id=97, 642.4pt x 481.8pt>
 File: ./figures/subur_rank.pdf Graphic file (type pdf)
 <use ./figures/subur_rank.pdf>
-Package pdftex.def Info: ./figures/subur_rank.pdf  used on input line 240.
+Package pdftex.def Info: ./figures/subur_rank.pdf  used on input line 242.
 (pdftex.def)             Requested size: 242.98541pt x 182.24045pt.
  [11 <./figures/urban_rank.pdf>]
 <./figures/morning_rank.pdf, id=103, 642.4pt x 481.8pt>
 File: ./figures/morning_rank.pdf Graphic file (type pdf)
 <use ./figures/morning_rank.pdf>
-Package pdftex.def Info: ./figures/morning_rank.pdf  used on input line 270.
+Package pdftex.def Info: ./figures/morning_rank.pdf  used on input line 272.
 (pdftex.def)             Requested size: 173.56177pt x 130.1686pt.
 <./figures/evening_rank.pdf, id=104, 642.4pt x 481.8pt>
 File: ./figures/evening_rank.pdf Graphic file (type pdf)
 <use ./figures/evening_rank.pdf>
-Package pdftex.def Info: ./figures/evening_rank.pdf  used on input line 270.
+Package pdftex.def Info: ./figures/evening_rank.pdf  used on input line 272.
 (pdftex.def)             Requested size: 173.56177pt x 130.1686pt.
 
-Overfull \hbox (5.59998pt too wide) in paragraph at lines 269--274
+Overfull \hbox (5.59998pt too wide) in paragraph at lines 271--276
  [][] 
  []
 
 <./figures/weekday_rank.pdf, id=105, 642.4pt x 481.8pt>
 File: ./figures/weekday_rank.pdf Graphic file (type pdf)
 <use ./figures/weekday_rank.pdf>
-Package pdftex.def Info: ./figures/weekday_rank.pdf  used on input line 280.
+Package pdftex.def Info: ./figures/weekday_rank.pdf  used on input line 282.
 (pdftex.def)             Requested size: 173.56177pt x 130.1686pt.
 <./figures/weekend_rank.pdf, id=106, 642.4pt x 481.8pt>
 File: ./figures/weekend_rank.pdf Graphic file (type pdf)
 <use ./figures/weekend_rank.pdf>
-Package pdftex.def Info: ./figures/weekend_rank.pdf  used on input line 280.
+Package pdftex.def Info: ./figures/weekend_rank.pdf  used on input line 282.
 (pdftex.def)             Requested size: 173.56177pt x 130.1686pt.
 
-Overfull \hbox (5.59998pt too wide) in paragraph at lines 279--284
+Overfull \hbox (5.59998pt too wide) in paragraph at lines 281--286
  [][] 
  []
 
@@ -377,7 +385,7 @@ ning_rank.pdf> <./figures/weekday_rank.pdf> <./figures/weekend_rank.pdf>]
 Here is how much of TeX's memory you used:
  2007 strings out of 492616
  28494 string characters out of 6135149
- 102395 words of memory out of 5000000
+ 100394 words of memory out of 5000000
  5893 multiletter control sequences out of 15000+600000
  7634 words of font info for 27 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -389,7 +397,7 @@ pfb><e:/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><e:/texlive
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><e:/texlive/texmf-dist/font
 s/type1/public/amsfonts/cm/cmsy9.pfb><e:/texlive/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmti9.pfb>
-Output written on apweb2019.pdf (15 pages, 1110830 bytes).
+Output written on apweb2019.pdf (15 pages, 1111012 bytes).
 PDF statistics:
  155 PDF objects out of 1000 (max. 8388607)
  80 compressed objects within 1 object stream
